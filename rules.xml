@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FeedInfo>
+  
+  <Index>
+  
+  <IndexInfo>
+    <IndexName>Index 1</IndexName>
+  </IndexInfo>
+    
+  <IndexRules>
+    <item Attribute ="FirstName" NoOfChars ="3"/>
+    <item Attribute ="LastName"  NoOfChars ="ALL"/>
+    <item Attribute ="DOB" NoOfChars ="ALL"/>
+  </IndexRules>
+   
+  </Index>
+
+  <Index>
+
+    <IndexInfo>
+      <IndexName>Index 2</IndexName>
+    </IndexInfo>
+
+    <IndexRules>
+      <item Attribute ="SSN" NoOfChars ="ALL"/>
+    </IndexRules>
+
+  </Index>
+  
+<Index>
+
+    <IndexInfo>
+      <IndexName>Index 3</IndexName>
+    </IndexInfo>
+
+    <IndexRules>
+      <item Attribute ="LastName" NoOfChars ="ALL"/>
+      <item Attribute ="DOB" NoOfChars ="ALL"/>
+    </IndexRules>
+
+  </Index>
+  
+</FeedInfo>
